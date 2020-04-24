@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --projects jest-*.config.js",
     "test:watch": "npm run test -- --watchAll",
+    "test:cov": "npm run test -- --coverage",
     "lint": "jest --projects jest-lint.config.js",
     "lint:watch": "npm run lint -- --watchAll"
   },
